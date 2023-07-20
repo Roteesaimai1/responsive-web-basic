@@ -55,12 +55,12 @@ export default {
             {   id: 5,
                 user: 'Goiii',
                 msg: 'หาตี้วาโล แพท++ ขาด2',
-                timestamp: 'พุธ 18 กรกฏาคม 66'
+                timestamp: 'อังคาร 18 กรกฏาคม 66'
             },
             {   id: 6,
                 user: 'Tle',
                 msg: 'อยากตกปลาาาา ใครว่างไปด้วยหน่อย',
-                timestamp: 'พุธ 18 กรกฏาคม 66'
+                timestamp: 'อังคาร 18 กรกฏาคม 66'
             },
         ]
         }
