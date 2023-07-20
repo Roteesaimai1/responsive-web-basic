@@ -5,7 +5,8 @@
             <div class="grid-card" v-for="data in postdata" :key="data.id" >
                 <div class="h-card">                    
                     <div class="userpost">                                              
-                        <h3 style="justify-content: left; display: flex; margin-left: 3%;" ><img src="imgs/user.png" style="width: 40px; height: 40px;" alt="">{{ data.user }}<p>{{ data.timestamp }}</p></h3>                      
+                        <h3 style="justify-content: left; display: flex; margin-left: 3%;" ><img src="imgs/user.png" style="width: 40px; height: 40px;" alt="">{{ data.user }}</h3>                      
+                        <p><span>{{ data.timestamp }}</span></p>
                     </div>
                 </div>            
                 <div class="c-card">
@@ -21,6 +22,7 @@
             
             
         </div>
+        
         <!-- End Card msg -->                
     </div>
 </template>
@@ -74,7 +76,7 @@ export default {
     width: 100%;
     height: 18.125rem;
     background-color: #E6F9FF;
-    margin-bottom: 5px;
+    margin-bottom: 5%;
     text-align: center;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
@@ -98,9 +100,12 @@ export default {
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 .userpost p{
-    padding: 2%;
+    
     font-size: 12px;
     color: #60AABF;
+}
+.userpost img{
+    margin-right: 5px;
 }
 .f-card {
     background-color: #E6F9FF;

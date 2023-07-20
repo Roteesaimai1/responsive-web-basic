@@ -3,7 +3,7 @@
         <header class="h">
             <div class="headbar">
                 <div class="nameapp" style="margin-left: 10%;">
-                    <h3>PLA-BIN</h3>
+                    <h2>PLA-BIN</h2>
                 </div>
                 <div class="displayname">
                                        
@@ -37,6 +37,7 @@ export default {
     width: 100%;
     height: 30%;
     display: grid;
+    
     grid-template-columns: 1fr 2fr 1fr;
     color: aliceblue;
     margin-bottom: 3px;
@@ -45,7 +46,7 @@ export default {
 }
 .h {
     
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 .displayname {
@@ -59,6 +60,12 @@ export default {
     display: flex;   
     justify-content: center;
     margin: 5%;
+}
+.img-user p{
+    text-align: right;
+    display: flex;   
+    justify-content: center;
+    margin-right: 15%;
 }
 body {
     margin: 0px;
